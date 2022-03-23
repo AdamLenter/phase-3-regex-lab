@@ -1,9 +1,13 @@
 def starts_with_a_vowel?(word)
-
+    if(word.match(/\b[AEIOUaeiou]/))
+        true
+    else
+        false
+    end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+    
 end
 
 def words_five_letters_long(text)
@@ -17,3 +21,5 @@ end
 def valid_phone_number?(phone)
 
 end
+
+puts starts_with_a_vowel?("Adam")
